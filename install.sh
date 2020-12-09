@@ -1,5 +1,4 @@
 #!/bin/bash
-# Install everything needed to automatically fetch automatically generated subtitles from youtube video.
 
 # Install dependencies
 sudo pip3 install requirements.txt
