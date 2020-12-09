@@ -13,7 +13,7 @@ def generate_transcript(url):
     for line in transcript:
         transcript_string += line['text'] + " "
 
-    # Add punctuation to transcript"""
+    # Add punctuation to transcript
     transcript_string = punctuate(transcript_string)
 
     f = open("transcript.txt", "w+")
