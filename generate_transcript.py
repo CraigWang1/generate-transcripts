@@ -45,7 +45,6 @@ def punctuate(text):
     # Access the punctuate website to add punctuation
     print("Opening browser")
     opts = Options()
-    opts.require_window_focus = True
     opts.headless = True
     driver = webdriver.Firefox(executable_path="./geckodriver", options=opts)
     driver.get("http://bark.phon.ioc.ee/punctuator")
